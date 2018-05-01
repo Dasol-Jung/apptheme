@@ -32,8 +32,16 @@ img{
 
 }
 
+#subheader h1{
+    padding : 10px 20px
+}
 
 /* Header  */
+
+#main-header a{
+    text-decoration : none;
+    color : #222;
+}
 
 #main-header{
     border-bottom : solid 1px rgb(34, 192, 171)
@@ -149,7 +157,7 @@ img{
 #company{
    background: linear-gradient(0deg, rgba(34,195,154,0.5368522408963585) 0%, rgba(34,195,154,0.6713060224089635) 50%, rgba(34,195,154,0.8701855742296919) 100%);
     color :rgb(0, 0, 0); 
-    padding :10px 0;
+    padding :10px 0 20px 0;
 }
 
 
@@ -230,8 +238,8 @@ img{
 }
 
 .services ul li:nth-child(even){
-    background : #56a79a42;
-    color : white;
+    background : #1c4e46c0;
+    color : #fff;
 }
 .contact form{
     background-color : #90f7d8;
@@ -255,6 +263,11 @@ img{
     height : 40px;
 }
 
+.row{
+    padding : 0 20px;
+}
+
+
 
 @media (max-width: 991px){
 
@@ -266,9 +279,27 @@ img{
     }
 
     #showcase h1{
-        font-size : 1.5rem;
+        font-size : 3rem;
     }
 }
-.row{
-    padding : 20px;
+
+@media (max-width: 791px){
+
+    #showcase h1{
+        font-size : 2rem;
+    }
+    #showcase p{
+        font-size : 1.2rem;
+    }
+}
+
+
+@media (max-width: 553px){
+
+    #showcase h1{
+        font-size : 1.5rem;
+    }
+    #showcase p{
+        font-size : 1rem;
+    }
 }
