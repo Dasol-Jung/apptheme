@@ -1,0 +1,23 @@
+{
+  "name": "apptheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dasol-Jung/apptheme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dasol-Jung/apptheme/issues"
+  },
+  "homepage": "https://github.com/Dasol-Jung/apptheme#readme",
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "font-awesome": "^4.7.0"
+  }
+}
