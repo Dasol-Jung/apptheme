@@ -2,3 +2,14 @@
 
     margin:auto;
 }
+#features i.material-icons{
+    font-size : 80px; 
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    width: 100%;
+}
