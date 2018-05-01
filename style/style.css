@@ -1,9 +1,19 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-size : 17px;
+    line-height : 1.5;
+    margin: 0;
+    padding : 0;
+}
+
+
 .container{
 
-    margin:auto;
+    margin: auto;
 }
 #features i.material-icons{
-    font-size : 80px; 
+    font-size : 1.5rem; 
 }
 
 ul{
@@ -12,4 +22,253 @@ ul{
 
 img{
     width: 100%;
+}
+
+
+/* Common Class */
+
+.primary-text{
+    color : rgb(34, 192, 171)
+
+}
+
+
+/* Header  */
+
+#main-header{
+    border-bottom : solid 1px rgb(34, 192, 171)
+}
+
+#navbar{
+    list-style : none;
+    text-transform: uppercase;
+}
+
+#navbar ul{
+    padding :0;
+}
+
+#navbar li{
+
+    display : inline;
+    padding : 0 20px;
+
+
+}
+
+#navbar a{
+    text-decoration: none;
+    color : black;
+}
+
+#navbar .current a, #navbar a:hover{
+    color : #56a79a;
+    border-bottom : 3px solid #56a79a;
+    padding-bottom : 3px;
+}
+
+/* Showcase */
+
+#showcase{
+    background :url('../images/showcase.jpg') no-repeat center center;
+    background-attachment : fixed;
+    border-bottom : 3px solid #56a79a;
+    margin-bottom : 30px;
+    height : 70vh;
+    background-size : cover;
+    background-position : center;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase h1{
+    font-size : 3rem;
+    margin : 0;
+    padding-bottom : 30px;
+}
+
+#showcase p{
+    font-size : 1.3rem;
+    margin : 0;
+}
+
+#showcase-content{
+    text-align :center;
+    background : #333;
+    color : #fff;
+    border-radius : 90px;
+    padding : 1.1rem;
+    width : 70%;
+    opacity :0.85;
+}
+
+/* Core features */
+
+#features h2{
+    font-size : 2.5rem;
+    margin : 0;
+    padding-bottom : 10px;
+}
+
+#features h4{
+    font-size : 1.3rem;
+}
+
+#features p{
+    margin : 0;
+    margin-bottom : 40px;
+}
+
+#features .material-icons{
+    font-size : 60px !important;
+    color : #56a79a;
+}
+
+/* Info */
+
+#info{ 
+    background : url("../images/info.jpg");
+    background-size : cover;
+    background-position : center;
+    color : #fff;
+}
+#info ul{
+    list-style :none;
+    padding : 0;
+}
+
+#info li{
+    line-height : 2;
+    font-size : 20px;
+}
+
+/* Company Area */
+
+#company{
+   background: linear-gradient(0deg, rgba(34,195,154,0.5368522408963585) 0%, rgba(34,195,154,0.6713060224089635) 50%, rgba(34,195,154,0.8701855742296919) 100%);
+    color :rgb(0, 0, 0); 
+    padding :10px 0;
+}
+
+
+
+#company h4{
+    font-size : 1.5rem;
+    font-weight : lighter;
+    text-transform : uppercase;
+    margin-bottom : 0;
+}
+
+#company ul,p{
+    padding : 0;
+    list-style :none;
+    line-height : 2;
+    font-weight: 300;
+    font-size : 14px;
+}
+
+#company i{
+    position : relative;
+    top : 7px;
+}
+
+#company input[type="email"]{
+    padding : 7px;
+    border-radius : 7px;
+    margin-bottom : 10px;
+}
+
+#company input[type="submit"]{
+    background : #fff;
+    color : #222;
+    padding :10px;
+    border : 0;
+    border-radius : 7px;
+
+}
+
+/* footer */
+
+#main-footer{
+    background : #444;
+    color : #eee;
+    height : auto;
+}
+
+#main-footer p{
+    margin : 0;
+}
+
+#main-footer .row{
+    padding : 2px;
+}
+
+/* Page */
+
+#page{
+    margin-bottom : 40px;
+}
+
+/* Services */
+
+.services ul{
+    padding :0;
+}
+
+.services ul li{
+    padding : 10px;
+    list-style :none;
+
+
+}
+.services ul li:nth-child(odd){
+    background : #333;
+    color : white;
+
+}
+
+.services ul li:nth-child(even){
+    background : #56a79a42;
+    color : white;
+}
+.contact form{
+    background-color : #90f7d8;
+    padding : 20px;
+}
+.contact form div{
+
+    padding : 10px;
+}
+.contact input{
+
+    width : 300px;
+    height : 30px;
+}
+
+.contact input[type="submit"]{
+    background : #333;
+    color : #fff;
+    font-size : 1.5rem;
+    padding : 2px;
+    height : 40px;
+}
+
+
+@media (max-width: 991px){
+
+    #main-header ul,h1{
+        text-align : center;
+    }
+    #navbar li{
+        padding : 0 10px;
+    }
+
+    #showcase h1{
+        font-size : 1.5rem;
+    }
+}
+.row{
+    padding : 20px;
 }
